@@ -1,0 +1,11 @@
+export { default as Battery } from './Battery';
+export { default as Connection } from './Connection';
+export { default as Cookies } from './Cookies';
+export { default as Footer } from './Footer';
+export { default as Geolocation } from './Geolocation';
+export { default as Hardware } from './Hardware';
+export { default as Language } from './Language';
+export { default as MimeTypes } from './MimeTypes';
+export { default as Misc } from './Misc';
+export { default as Socials } from './Socials';
+export { default as UserAgent } from './UserAgent';
