@@ -3,9 +3,9 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 const requestIp = require('request-ip');
-const config = require("./config");
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
+const GEOLOCATION_API_KEY = process.env.GEOLOCATION_API_KEY;
 
 
 // app creation code removed for brevity
@@ -32,7 +32,7 @@ var GeolocationParams = require('ip-geolocation-api-javascript-sdk/GeolocationPa
 // Create IPGeolocationAPI object. Constructor takes two parameters.
 // 1) API key (Optional: To authenticate your requests through "Request Origin", you can skip it.)
 // 2) Async (Optional: It is used to toggle "async" mode in the requests. By default, it is true.)
-var ipgeolocationApi = new IPGeolocationAPI(config.geolocationApiKey, false);
+var ipgeolocationApi = new IPGeolocationAPI(GEOLOCATION_API_KEY, false);
 
 app.get('/', function(req, res) {
 
