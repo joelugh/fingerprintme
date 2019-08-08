@@ -1,3 +1,13 @@
+# Fingerprint Me
+
+Running at [https://fingerprintme.herokuapp.com](https://fingerprintme.herokuapp.com).
+
+Check out this [blog post](https://morethankradio.tumblr.com/post/186529805826/something-awesome-data-thief-or-gift-recipient) to learn more.
+
+This project uses React's Context API with Hooks. Check out the homegrown Terminal component if that tickles your fancy.
+
+# Dev
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
